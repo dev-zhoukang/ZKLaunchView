@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		586504421D46F2C80082ABB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 586504411D46F2C80082ABB8 /* main.m */; };
+		586504451D46F2C80082ABB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 586504441D46F2C80082ABB8 /* AppDelegate.m */; };
+		586504481D46F2C80082ABB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 586504471D46F2C80082ABB8 /* ViewController.m */; };
+		5865044D1D46F2C80082ABB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5865044C1D46F2C80082ABB8 /* Assets.xcassets */; };
+		586504501D46F2C80082ABB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5865044E1D46F2C80082ABB8 /* LaunchScreen.storyboard */; };
+		5865045B1D46F2C80082ABB8 /* ZKLaunchViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5865045A1D46F2C80082ABB8 /* ZKLaunchViewTests.m */; };
+		586504661D46F2C80082ABB8 /* ZKLaunchViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 586504651D46F2C80082ABB8 /* ZKLaunchViewUITests.m */; };
+		586504761D46F8580082ABB8 /* ZKLaunchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 586504751D46F8580082ABB8 /* ZKLaunchView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		586504571D46F2C80082ABB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586504351D46F2C80082ABB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5865043C1D46F2C80082ABB8;
+			remoteInfo = ZKLaunchView;
+		};
+		586504621D46F2C80082ABB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 586504351D46F2C80082ABB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5865043C1D46F2C80082ABB8;
+			remoteInfo = ZKLaunchView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5865043D1D46F2C80082ABB8 /* ZKLaunchView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKLaunchView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		586504411D46F2C80082ABB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		586504431D46F2C80082ABB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		586504441D46F2C80082ABB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		586504461D46F2C80082ABB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		586504471D46F2C80082ABB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5865044C1D46F2C80082ABB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5865044F1D46F2C80082ABB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		586504511D46F2C80082ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586504561D46F2C80082ABB8 /* ZKLaunchViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKLaunchViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5865045A1D46F2C80082ABB8 /* ZKLaunchViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLaunchViewTests.m; sourceTree = "<group>"; };
+		5865045C1D46F2C80082ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586504611D46F2C80082ABB8 /* ZKLaunchViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZKLaunchViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		586504651D46F2C80082ABB8 /* ZKLaunchViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZKLaunchViewUITests.m; sourceTree = "<group>"; };
+		586504671D46F2C80082ABB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		586504741D46F8580082ABB8 /* ZKLaunchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKLaunchView.h; sourceTree = "<group>"; };
+		586504751D46F8580082ABB8 /* ZKLaunchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKLaunchView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5865043A1D46F2C80082ABB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586504531D46F2C80082ABB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5865045E1D46F2C80082ABB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		586504341D46F2C80082ABB8 = {
+			isa = PBXGroup;
+			children = (
+				5865043F1D46F2C80082ABB8 /* ZKLaunchView */,
+				586504591D46F2C80082ABB8 /* ZKLaunchViewTests */,
+				586504641D46F2C80082ABB8 /* ZKLaunchViewUITests */,
+				5865043E1D46F2C80082ABB8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5865043E1D46F2C80082ABB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5865043D1D46F2C80082ABB8 /* ZKLaunchView.app */,
+				586504561D46F2C80082ABB8 /* ZKLaunchViewTests.xctest */,
+				586504611D46F2C80082ABB8 /* ZKLaunchViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5865043F1D46F2C80082ABB8 /* ZKLaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				586504431D46F2C80082ABB8 /* AppDelegate.h */,
+				586504441D46F2C80082ABB8 /* AppDelegate.m */,
+				586504461D46F2C80082ABB8 /* ViewController.h */,
+				586504471D46F2C80082ABB8 /* ViewController.m */,
+				586504731D46F8280082ABB8 /* ZKLaunchView */,
+				586504401D46F2C80082ABB8 /* Supporting Files */,
+			);
+			path = ZKLaunchView;
+			sourceTree = "<group>";
+		};
+		586504401D46F2C80082ABB8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5865044C1D46F2C80082ABB8 /* Assets.xcassets */,
+				5865044E1D46F2C80082ABB8 /* LaunchScreen.storyboard */,
+				586504511D46F2C80082ABB8 /* Info.plist */,
+				586504411D46F2C80082ABB8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		586504591D46F2C80082ABB8 /* ZKLaunchViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				5865045A1D46F2C80082ABB8 /* ZKLaunchViewTests.m */,
+				5865045C1D46F2C80082ABB8 /* Info.plist */,
+			);
+			path = ZKLaunchViewTests;
+			sourceTree = "<group>";
+		};
+		586504641D46F2C80082ABB8 /* ZKLaunchViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				586504651D46F2C80082ABB8 /* ZKLaunchViewUITests.m */,
+				586504671D46F2C80082ABB8 /* Info.plist */,
+			);
+			path = ZKLaunchViewUITests;
+			sourceTree = "<group>";
+		};
+		586504731D46F8280082ABB8 /* ZKLaunchView */ = {
+			isa = PBXGroup;
+			children = (
+				586504741D46F8580082ABB8 /* ZKLaunchView.h */,
+				586504751D46F8580082ABB8 /* ZKLaunchView.m */,
+			);
+			path = ZKLaunchView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5865043C1D46F2C80082ABB8 /* ZKLaunchView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5865046A1D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchView" */;
+			buildPhases = (
+				586504391D46F2C80082ABB8 /* Sources */,
+				5865043A1D46F2C80082ABB8 /* Frameworks */,
+				5865043B1D46F2C80082ABB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKLaunchView;
+			productName = ZKLaunchView;
+			productReference = 5865043D1D46F2C80082ABB8 /* ZKLaunchView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		586504551D46F2C80082ABB8 /* ZKLaunchViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5865046D1D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchViewTests" */;
+			buildPhases = (
+				586504521D46F2C80082ABB8 /* Sources */,
+				586504531D46F2C80082ABB8 /* Frameworks */,
+				586504541D46F2C80082ABB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586504581D46F2C80082ABB8 /* PBXTargetDependency */,
+			);
+			name = ZKLaunchViewTests;
+			productName = ZKLaunchViewTests;
+			productReference = 586504561D46F2C80082ABB8 /* ZKLaunchViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		586504601D46F2C80082ABB8 /* ZKLaunchViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 586504701D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchViewUITests" */;
+			buildPhases = (
+				5865045D1D46F2C80082ABB8 /* Sources */,
+				5865045E1D46F2C80082ABB8 /* Frameworks */,
+				5865045F1D46F2C80082ABB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				586504631D46F2C80082ABB8 /* PBXTargetDependency */,
+			);
+			name = ZKLaunchViewUITests;
+			productName = ZKLaunchViewUITests;
+			productReference = 586504611D46F2C80082ABB8 /* ZKLaunchViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		586504351D46F2C80082ABB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ZK;
+				TargetAttributes = {
+					5865043C1D46F2C80082ABB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					586504551D46F2C80082ABB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5865043C1D46F2C80082ABB8;
+					};
+					586504601D46F2C80082ABB8 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 5865043C1D46F2C80082ABB8;
+					};
+				};
+			};
+			buildConfigurationList = 586504381D46F2C80082ABB8 /* Build configuration list for PBXProject "ZKLaunchView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 586504341D46F2C80082ABB8;
+			productRefGroup = 5865043E1D46F2C80082ABB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5865043C1D46F2C80082ABB8 /* ZKLaunchView */,
+				586504551D46F2C80082ABB8 /* ZKLaunchViewTests */,
+				586504601D46F2C80082ABB8 /* ZKLaunchViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5865043B1D46F2C80082ABB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586504501D46F2C80082ABB8 /* LaunchScreen.storyboard in Resources */,
+				5865044D1D46F2C80082ABB8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586504541D46F2C80082ABB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5865045F1D46F2C80082ABB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		586504391D46F2C80082ABB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586504761D46F8580082ABB8 /* ZKLaunchView.m in Sources */,
+				586504481D46F2C80082ABB8 /* ViewController.m in Sources */,
+				586504451D46F2C80082ABB8 /* AppDelegate.m in Sources */,
+				586504421D46F2C80082ABB8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		586504521D46F2C80082ABB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5865045B1D46F2C80082ABB8 /* ZKLaunchViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5865045D1D46F2C80082ABB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586504661D46F2C80082ABB8 /* ZKLaunchViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		586504581D46F2C80082ABB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5865043C1D46F2C80082ABB8 /* ZKLaunchView */;
+			targetProxy = 586504571D46F2C80082ABB8 /* PBXContainerItemProxy */;
+		};
+		586504631D46F2C80082ABB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5865043C1D46F2C80082ABB8 /* ZKLaunchView */;
+			targetProxy = 586504621D46F2C80082ABB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5865044E1D46F2C80082ABB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5865044F1D46F2C80082ABB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		586504681D46F2C80082ABB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		586504691D46F2C80082ABB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5865046B1D46F2C80082ABB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = ZKLaunchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5865046C1D46F2C80082ABB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
+				INFOPLIST_FILE = ZKLaunchView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5865046E1D46F2C80082ABB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKLaunchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKLaunchView.app/ZKLaunchView";
+			};
+			name = Debug;
+		};
+		5865046F1D46F2C80082ABB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZKLaunchViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZKLaunchView.app/ZKLaunchView";
+			};
+			name = Release;
+		};
+		586504711D46F2C80082ABB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKLaunchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKLaunchView;
+			};
+			name = Debug;
+		};
+		586504721D46F2C80082ABB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZKLaunchViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.zk520it.ZKLaunchViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZKLaunchView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		586504381D46F2C80082ABB8 /* Build configuration list for PBXProject "ZKLaunchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586504681D46F2C80082ABB8 /* Debug */,
+				586504691D46F2C80082ABB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5865046A1D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5865046B1D46F2C80082ABB8 /* Debug */,
+				5865046C1D46F2C80082ABB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5865046D1D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5865046E1D46F2C80082ABB8 /* Debug */,
+				5865046F1D46F2C80082ABB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		586504701D46F2C80082ABB8 /* Build configuration list for PBXNativeTarget "ZKLaunchViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				586504711D46F2C80082ABB8 /* Debug */,
+				586504721D46F2C80082ABB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 586504351D46F2C80082ABB8 /* Project object */;
+}
