@@ -65,22 +65,22 @@
     ZKLaunchView *launchView = [[ZKLaunchView alloc] initWithFrame:KeyWindow.bounds];
     [KeyWindow addSubview:launchView];
     
-    [UIView animateWithDuration:0.8f animations:^{
-        launchView.alpha = 0;
-        
-        CGFloat scale = 1.f;
-        if (type == ZKLaunchViewDisappearTypeZoomIn) {
-            scale = 1.3;
-        }
-        else if (type == ZKLaunchViewDisappearTypeZoomOut) {
-            scale = .001;
-        }
-        
-        launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, scale, scale, 1);
-        
-    } completion:^(BOOL finished) {
-        [launchView removeFromSuperview];
-    }];
+    CGFloat scale = 1.3f;
+    if (type == ZKLaunchViewDisappearTypeZoomIn) {
+        scale = 1.3f;
+    }
+    else if (type == ZKLaunchViewDisappearTypeZoomOut) {
+        scale = .001;
+    }
+    
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [UIView animateWithDuration:.8f animations:^{
+            launchView.alpha = 0;
+            launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, scale, scale, 1);
+        } completion:^(BOOL finished) {
+            [launchView removeFromSuperview];
+        }];
+    });
 }
 
 @end
