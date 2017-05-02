@@ -68,7 +68,7 @@
     [UIView animateWithDuration:0.8f animations:^{
         launchView.alpha = 0;
         
-        CGFloat scale;
+        CGFloat scale = 1.f;
         if (type == ZKLaunchViewDisappearTypeZoomIn) {
             scale = 1.3;
         }
