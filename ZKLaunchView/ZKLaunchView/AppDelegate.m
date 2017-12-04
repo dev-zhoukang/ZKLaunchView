@@ -22,7 +22,7 @@
     
     [self setupRootVC];
     
-    [ZKLaunchView showWithDisappearType:ZKLaunchViewDisappearTypeZoomIn];
+    [ZKLaunchView showAndAutoDisappear];
     
     return YES;
 }

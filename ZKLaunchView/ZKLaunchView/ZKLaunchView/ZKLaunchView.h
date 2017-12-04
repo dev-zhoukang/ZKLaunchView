@@ -9,12 +9,25 @@
 #import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSInteger, ZKLaunchViewDisappearType) {
-    ZKLaunchViewDisappearTypeZoomIn, //!< 放大
-    ZKLaunchViewDisappearTypeZoomOut, //!< 缩小
+    ZKLaunchViewDisappearTypeZoomOut, //!< zoom out to disappear
+    ZKLaunchViewDisappearTypeZoomIn,  //!< zoom in to disappear
 };
 
 @interface ZKLaunchView : UIView
 
-+ (void)showWithDisappearType:(ZKLaunchViewDisappearType)type;
+/**
+ show launchView and disappear automatically
+ disappear type: default to ZKLaunchViewDisappearTypeZoomOut
+ remain seconds: default to .8s
+ */
++ (void)showAndAutoDisappear;
+
+/**
+ show launchView and disappear automatically
+ disappear type: default to ZKLaunchViewDisappearTypeZoomOut
+ */
++ (void)showAndAutoDisappearAfter:(NSTimeInterval)seconds;
+
++ (void)showWithDisappearType:(ZKLaunchViewDisappearType)type after:(NSTimeInterval)seconds;
 
 @end

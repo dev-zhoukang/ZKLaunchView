@@ -20,24 +20,21 @@
 
 @implementation ZKLaunchView
 
-- (instancetype)initWithFrame:(CGRect)frame
-{
+- (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         [self setup];
     }
     return self;
 }
 
-- (instancetype)initWithCoder:(NSCoder *)aDecoder
-{
+- (instancetype)initWithCoder:(NSCoder *)aDecoder {
     if (self = [super initWithCoder:aDecoder]) {
         [self setup];
     }
     return self;
 }
 
-- (void)setup
-{
+- (void)setup {
     CGSize viewSize = KeyWindow.bounds.size;
     NSString *viewOrientation = @"Portrait"; // 横屏设置成 @"Landscape"
     
@@ -60,21 +57,28 @@
     [self addSubview:_imageView];
 }
 
-+ (void)showWithDisappearType:(ZKLaunchViewDisappearType)type
-{
++ (void)showAndAutoDisappear {
+    [self showAndAutoDisappearAfter:.8];
+}
+
++ (void)showAndAutoDisappearAfter:(NSTimeInterval)seconds {
+    [self showWithDisappearType:ZKLaunchViewDisappearTypeZoomOut after:seconds];
+}
+
++ (void)showWithDisappearType:(ZKLaunchViewDisappearType)type after:(NSTimeInterval)seconds {
     ZKLaunchView *launchView = [[ZKLaunchView alloc] initWithFrame:KeyWindow.bounds];
     [KeyWindow addSubview:launchView];
     
     CGFloat scale = 1.3f;
-    if (type == ZKLaunchViewDisappearTypeZoomIn) {
+    if (type == ZKLaunchViewDisappearTypeZoomOut) {
         scale = 1.3f;
     }
-    else if (type == ZKLaunchViewDisappearTypeZoomOut) {
+    else if (type == ZKLaunchViewDisappearTypeZoomIn) {
         scale = .001;
     }
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(.2 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [UIView animateWithDuration:.8f animations:^{
+        [UIView animateWithDuration:seconds animations:^{
             launchView.alpha = 0;
             launchView.layer.transform = CATransform3DScale(CATransform3DIdentity, scale, scale, 1);
         } completion:^(BOOL finished) {
